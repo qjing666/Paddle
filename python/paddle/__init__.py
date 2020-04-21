@@ -64,7 +64,7 @@ from .tensor.creation import full_like  #DEFINE_ALIAS
 from .tensor.creation import meshgrid  #DEFINE_ALIAS
 # from .tensor.stat import mean   #DEFINE_ALIAS
 # from .tensor.stat import reduce_mean   #DEFINE_ALIAS
-# from .tensor.stat import std   #DEFINE_ALIAS
+from .tensor.stat import std  #DEFINE_ALIAS
 from .tensor.stat import var  #DEFINE_ALIAS
 from .tensor.logic import equal  #DEFINE_ALIAS
 # from .tensor.logic import greater_equal   #DEFINE_ALIAS
@@ -150,8 +150,8 @@ from .tensor.math import addmm  #DEFINE_ALIAS
 # from .tensor.io import save   #DEFINE_ALIAS
 # from .tensor.io import load   #DEFINE_ALIAS
 from .tensor.linalg import matmul  #DEFINE_ALIAS
-from .tensor.linalg import dot  #DEFINE_ALIAS
 from .tensor.linalg import bmm  #DEFINE_ALIAS
+from .tensor.linalg import dot  #DEFINE_ALIAS
 # from .tensor.linalg import einsum   #DEFINE_ALIAS
 from .tensor.linalg import norm  #DEFINE_ALIAS
 # from .tensor.linalg import transpose   #DEFINE_ALIAS
@@ -165,7 +165,7 @@ from .tensor.linalg import cross  #DEFINE_ALIAS
 # from .tensor.manipulation import expand   #DEFINE_ALIAS
 # from .tensor.manipulation import expand_as   #DEFINE_ALIAS
 # from .tensor.manipulation import flatten   #DEFINE_ALIAS
-# from .tensor.manipulation import gather   #DEFINE_ALIAS
+from .tensor.manipulation import gather  #DEFINE_ALIAS
 # from .tensor.manipulation import gather_nd   #DEFINE_ALIAS
 # from .tensor.manipulation import reshape   #DEFINE_ALIAS
 # from .tensor.manipulation import reverse   #DEFINE_ALIAS
@@ -174,14 +174,14 @@ from .tensor.linalg import cross  #DEFINE_ALIAS
 # from .tensor.manipulation import scatter_nd   #DEFINE_ALIAS
 # from .tensor.manipulation import shard_index   #DEFINE_ALIAS
 # from .tensor.manipulation import slice   #DEFINE_ALIAS
-# from .tensor.manipulation import split   #DEFINE_ALIAS
-# from .tensor.manipulation import squeeze   #DEFINE_ALIAS
-# from .tensor.manipulation import stack   #DEFINE_ALIAS
+from .tensor.manipulation import split  #DEFINE_ALIAS
+from .tensor.manipulation import squeeze  #DEFINE_ALIAS
+from .tensor.manipulation import stack  #DEFINE_ALIAS
 # from .tensor.manipulation import strided_slice   #DEFINE_ALIAS
 # from .tensor.manipulation import transpose   #DEFINE_ALIAS
 # from .tensor.manipulation import unique   #DEFINE_ALIAS
 # from .tensor.manipulation import unique_with_counts   #DEFINE_ALIAS
-# from .tensor.manipulation import unsqueeze   #DEFINE_ALIAS
+from .tensor.manipulation import unsqueeze  #DEFINE_ALIAS
 # from .tensor.manipulation import unstack   #DEFINE_ALIAS
 from .tensor.manipulation import flip  #DEFINE_ALIAS
 # from .tensor.manipulation import unbind   #DEFINE_ALIAS
@@ -193,7 +193,7 @@ from .tensor.search import argmax  #DEFINE_ALIAS
 # from .tensor.search import has_nan   #DEFINE_ALIAS
 # from .tensor.search import masked_select   #DEFINE_ALIAS
 # from .tensor.search import topk   #DEFINE_ALIAS
-# from .tensor.search import where   #DEFINE_ALIAS
+from .tensor.search import where  #DEFINE_ALIAS
 from .tensor.search import index_select  #DEFINE_ALIAS
 from .tensor.search import index_sample  #DEFINE_ALIAS
 from .tensor.search import nonzero  #DEFINE_ALIAS
